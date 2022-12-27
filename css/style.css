@@ -32,6 +32,10 @@
     width: 100%;
 }
 
+.feature-text {
+    width: 350px;
+}
+
 
 .additional-feature-img {
     width:100px !important;
