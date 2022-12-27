@@ -1,0 +1,24 @@
+/* .selector-for-some-widget {
+  box-sizing: content-box;
+} */
+
+
+.banner {
+    background-image: url("../images/IssueLabHeader-Wide.png");
+  /* background-repeat: no-repeat; */
+  background-attachment: fixed;
+  height:700px;
+  /* object-fit: fill; */
+}
+
+
+.feature-image {
+    object-fit: contain;
+    width: 380px;
+}
+
+.parent {
+    align-items: center;
+    justify-content: center;
+  }
+ 
