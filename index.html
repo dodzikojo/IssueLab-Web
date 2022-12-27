@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link href="css/style.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" rel="stylesheet">
     <title>IssueLab</title>
 </head>
 <body>
@@ -38,18 +39,18 @@
         </div>
       </div>
 
-      <div class="container">
+      <section id="features" class="container">
         <div class="row parent">
             <div class="child justify-content-center col-xs-12 col-sm-12 col-md-7 col-lg-7 col-xl-7">
                 <div class="col-12">
-                    <h3>Be a step ahead of BIM project issues</h3>
+                    <p class="fs-2 text">Be a step ahead of BIM project issues</p>
                 </div>
                 <div class="col-12">
                     IssueLab significantly reduces the amount of time involved in dealing with project issues by improving the way project members work with each other and intelligently learning the way users responds to issues and improving over time.
                 </div>
 
             </div>
-            <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5 col-xl-5">
+            <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5 col-xl-5 image-container">
                 <img class="feature-image" src="images/02-Focus.png">
             </div>
         </div>
@@ -60,7 +61,7 @@
             </div>
             <div class="child justify-content-center  col-xs-12 col-sm-12 col-md-7 col-lg-7 col-xl-7">
                 <div class="col-12">
-                    <h3>Be a step ahead of BIM project issues</h3>
+                    <p class="fs-2 text">Be a step ahead of BIM project issues</p>
                 </div>
                 <div class="col-12">
                     IssueLab significantly reduces the amount of time involved in dealing with project issues by improving the way project members work with each other and intelligently learning the way users responds to issues and improving over time.
@@ -71,7 +72,7 @@
         <div class="row parent">
             <div class="child justify-content-center col-xs-12 col-sm-12 col-md-7 col-lg-7 col-xl-7">
                 <div class="col-12">
-                    <h3>Be a step ahead of BIM project issues</h3>
+                    <p class="fs-2 text">Be a step ahead of BIM project issues</p>
                 </div>
                 <div class="col-12">
                     IssueLab significantly reduces the amount of time involved in dealing with project issues by improving the way project members work with each other and intelligently learning the way users responds to issues and improving over time.
@@ -84,17 +85,232 @@
         </div>
         <div class="row text-center">
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-                <p>Work collaboratively with team members</p>
+                <p class="fs-2 text">Work collaboratively with team members</p>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
                 <p>See who is doing what. Assign task to a team member effortlessly. Associate Issues to each task item or create unrelated task items for any task that needs to be monitored. </p>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-                <img src="images/Taskboard_optimized.gif" width="700px">
+                <img src="images/Taskboard_optimized.gif" id="collab-image" >
             </div>
         </div>
+    </section>
+
+    <section id="additional-features" class="container mt-4">
+        <!-- Row 1 - Additional features -->
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-3">
+                <div class="card bg-light text-center shadow" >
+                    <div class="additional-feature-img-container p-2">
+                        <img class="additional-feature-img" src="images/issue-recommendation.png" class="card-img-top" alt="issue recommendation image">
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title">Issue Recommendations</h5>
+                      <p class="card-text">IssueLab actively studies how users respond to each Issue and builds an understanding of Issues the user is likely to resolve and recommends them.</p>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-3">
+                <div class="card bg-light text-center shadow" >
+                    <div class="additional-feature-img-container p-2">
+                        <img class="additional-feature-img" src="images/smart-search.png" class="card-img-top" alt="issue recommendation image">
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title">Smart Search</h5>
+                      <p class="card-text">Search through list of issues so you can focus on only what matters to you. Use the search box to filter Issues based on Title, Status, Priority, Assigned, Group, Comments, Source file name and so on.</p>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-3">
+                <div class="card bg-light text-center shadow" >
+                    <div class="additional-feature-img-container p-2">
+                        <img class="additional-feature-img" src="images/issue-activities.png" class="card-img-top" alt="issue recommendation image">
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title">Issue Activities</h5>
+                      <p class="card-text">Add comments, images, and viewpoints, and see who did what on each Issue. Click on the expandable panel icon and see all comments and activity history related to each Issue.</p>
+                    </div>
+                  </div>
+            </div>
+      
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-3">
+                <div class="card bg-light text-center shadow" >
+                    <div class="additional-feature-img-container p-2">
+                        <img class="additional-feature-img" src="images/monitor-issues.png" class="card-img-top" alt="issue recommendation image">
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title">Monitor Issues</h5>
+                      <p class="card-text">Stay informed on issues of interest to you and receive notifications with any change. Easily see all monitored issues by selecting the dedicated Monitoring button.</p>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-3">
+                <div class="card bg-light text-center shadow" >
+                    <div class="additional-feature-img-container p-2">
+                        <img class="additional-feature-img" src="images/related-issues.png" class="card-img-top" alt="issue recommendation image">
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title">Related Issues</h5>
+                      <p class="card-text">See all issues related to selected model elements within Autodesk Revit. Select a model elements and see all Issues related to it.</p>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-3">
+                <div class="card bg-light text-center shadow" >
+                    <div class="additional-feature-img-container p-2">
+                        <img class="additional-feature-img" src="images/quick-issue.png" class="card-img-top" alt="issue recommendation image">
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title">Quick Issue</h5>
+                      <p class="card-text">Create a New Issue in record time. With one click, select "New Quick Issue" and IssueLab does the rest - blink and you'll miss it.</p>
+                    </div>
+                  </div>
+            </div>
+      
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-3">
+                <div class="card bg-light text-center shadow" >
+                    <div class="additional-feature-img-container p-2">
+                        <img class="additional-feature-img" src="images/auto-issue-tagging.png" class="card-img-top" alt="issue recommendation image">
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title">Auto Issue Tagging</h5>
+                      <p class="card-text">IssueLab comes default with hundreds of tags or create project specific tags. Auto issue tagging helps sort issues keeping them organized.</p>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-3">
+                <div class="card bg-light text-center shadow" >
+                    <div class="additional-feature-img-container p-2">
+                        <img class="additional-feature-img" src="images/multiselect-groups.png" class="card-img-top" alt="issue recommendation image">
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title">Multi-Select & Groups</h5>
+                      <p class="card-text">Perform group functions and work smarter not harder. Select more than one Issue and activate the groups functions or easily add Issues to a new or existing group.
+                    </p>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-3">
+                <div class="card bg-light text-center shadow" >
+                    <div class="additional-feature-img-container p-2">
+                        <img class="additional-feature-img" src="images/element-coloring.png" class="card-img-top" alt="issue recommendation image">
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title">Model Elements Colouring</h5>
+                      <p class="card-text">IssueLab allows you to associate unlimited number of model elements to each Issue. With auto model element colouring you can easily spot these elements when an Issue is selected.</p>
+                    </div>
+                  </div>
+            </div>
+     
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-3">
+            <div class="card bg-light text-center shadow" >
+                <div class="additional-feature-img-container p-2">
+                    <img class="additional-feature-img" src="images/auto-issue-tagging.png" class="card-img-top" alt="issue recommendation image">
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Publish, Sync, Update</h5>
+                  <p class="card-text">Sync and update clashes between IssueLab and Autodesk Navisworks. Publish hundreds of clashes in a few minutes, can't wait for all the clashes to be published? IssueLab allows you to stop and resume publishing without creating duplicates.</p>
+                </div>
+              </div>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-3">
+            <div class="card bg-light text-center shadow" >
+                <div class="additional-feature-img-container p-2">
+                    <img class="additional-feature-img" src="images/multiselect-groups.png" class="card-img-top" alt="issue recommendation image">
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Custom Queries</h5>
+                  <p class="card-text">Create custom queries and use them across different projects and applications
+                </p>
+                </div>
+              </div>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-3">
+            <div class="card bg-light text-center shadow" >
+                <div class="additional-feature-img-container p-2">
+                    <img class="additional-feature-img" src="images/element-coloring.png" class="card-img-top" alt="issue recommendation image">
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Quick Filter</h5>
+                  <p class="card-text">Easily accessible dedicated status buttons to quickly filter Issues. Combine this with custom queries that works across all projects and what you get is powerful filtering capabilities.</p>
+                </div>
+              </div>
+        </div>
+    </div>
+    <!-- End of Row 4 -->
+    </section>
+
+    <hr class="my-4 mt-5">
+
+    <div class="container">
+          <div class="row">
+           
+            <div class="m-2 col-xs-12 col-sm-12 col-md-8 border shadow-sm bg-light mx-auto">
+                <div class="py-5 text-center">
+                    <h2>Contact Us</h2>
+                  </div>
+              <form class="needs-validation" novalidate="">
+                <div class="row g-3">
+                  <div class="col-sm-6">
+                    <label for="firstName" class="form-label">First name</label>
+                    <input type="text" class="form-control" id="firstName" placeholder="John" value="" required="">
+                    <div class="invalid-feedback">
+                      Valid first name is required.
+                    </div>
+                  </div>
+      
+                  <div class="col-sm-6">
+                    <label for="lastName" class="form-label">Last name</label>
+                    <input type="text" class="form-control" id="lastName" placeholder="Smith" value="" required="">
+                    <div class="invalid-feedback">
+                      Valid last name is required.
+                    </div>
+                  </div>
+      
+      
+                  <div class="col-12">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="email" placeholder="you@example.com">
+                    <div class="invalid-feedback">
+                      Please enter a valid email address for shipping updates.
+                    </div>
+                  </div>
+      
+                  <div class="col-12">
+                    <label for="phone" class="form-label">Phone</label>
+                    <input type="text" class="form-control" id="address" placeholder="" required="">
+                    <div class="invalid-feedback">
+                      Please enter your shipping address.
+                    </div>
+                  </div>
+      
+                  <div class="col-12">
+                    <label for="message" class="form-label">Message<span class="text-muted"></span></label>
+                    <textarea type="text" class="form-control"  placeholder="Type your message here..."></textarea>
+                  </div>
+      
+                </div>
+      
+                <button class="w-100 btn btn-secondary btn-lg my-3" type="submit">Submit</button>
+              </form>
+            </div>
+          </div>
       </div>
-    
+
+ 
+    <!-- Footer -->
+    <footer class="mt-5 bg-light pt-5 text-muted text-center text-small">
+        <ul class="list-inline">
+            <li class="list-inline-item"><a href="#">Privacy</a></li>
+            <li class="list-inline-item"><a href="#">Terms and Conditions</a></li>
+          </ul>
+        <p class="mb-3">© 2020–2022 IssueLab</p>
+       
+      </footer>
+    <!-- Footer -->
+
+       
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
 </body>
 </html>

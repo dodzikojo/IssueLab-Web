@@ -15,10 +15,26 @@
 .feature-image {
     object-fit: contain;
     width: 380px;
+    text-align: center;
 }
 
 .parent {
     align-items: center;
     justify-content: center;
   }
+
+.image-container{
+    /* width:100%; */
+    text-align:center;
+}
+
+#collab-image {
+    width: 100%;
+}
+
+
+.additional-feature-img {
+    width:100px !important;
+    text-align: center;
+}
  
