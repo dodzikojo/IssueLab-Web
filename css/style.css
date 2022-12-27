@@ -5,16 +5,30 @@
 
 .banner {
     background-image: url("../images/IssueLabHeader-Wide.png");
-  /* background-repeat: no-repeat; */
-  background-attachment: fixed;
   height:700px;
-  /* object-fit: fill; */
+  width: 100%;
+  background-repeat:no-repeat;
+    background-position: center;
+  object-fit:fill;
+}
+
+.top-20 {
+    top: 20%!important;
+}
+
+.evenGridAreaSection {
+    background-color: #f9fafb;
+    padding: 20px;
+}
+
+.oddGridAreaSection {
+    background-color: #fff;
 }
 
 
 .feature-image {
     object-fit: contain;
-    width: 380px;
+    width: 300px;
     text-align: center;
 }
 
@@ -33,14 +47,14 @@
 }
 
 .feature-text {
-    width: 380px;
+    background-color: rgba(255, 255, 255, 0.505);
 }
 
 .oddGridArea {
     display:grid;
     grid-template-areas: 
     "text image";
-  grid-template-columns: 60% 40%;
+  grid-template-columns: 80% auto;
    
 }
 
@@ -57,7 +71,7 @@
     display:grid;
     grid-template-areas: 
     "image text";
-  grid-template-columns: 40% 60%;
+  grid-template-columns: auto 80%;
    
 }
 
@@ -127,7 +141,7 @@
 }
 
 .feature-image {
-    height: 300px;
+    height: 220px;
     margin-top: 20px;
 }
  
@@ -135,21 +149,32 @@
   
   /* Small devices (portrait tablets and large phones, 600px and up) */
   @media only screen and (min-width: 600px) {
-  
+    .evenGridArea {
+        /* max-width: 540px; */
   }
+}
   
   /* Medium devices (landscape tablets, 768px and up) */
   @media only screen and (min-width: 768px) {
-  
+    .evenGridArea {
+        /* max-width: 720px; */
+    }
   }
 
   /* Large devices (laptops/desktops, 992px and up) */
   @media only screen and (min-width: 992px) {
-  
+    .evenGridArea {
+        /* max-width: 960px; */
+    }
   }
   
   /* Extra large devices (large laptops and desktops, 1200px and up) */
   @media only screen and (min-width: 1200px) {
  
-  
+    .evenGridArea {
+        /* max-width: 1200px; */
+    }
   }
+
+
+
