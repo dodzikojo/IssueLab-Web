@@ -5,11 +5,11 @@
 
 .banner {
     background-image: url("../images/IssueLabHeader-Wide.png");
-  height:700px;
+    margin-bottom: 10px;
   width: 100%;
   background-repeat:no-repeat;
     background-position: center;
-  object-fit:fill;
+  object-fit:cover;
 }
 
 .top-20 {
@@ -102,10 +102,6 @@
     .banner {
         background-image: url("../images/IssueLabHeader.png");
       height:800px;
-      width: 100%;
-      background-repeat:no-repeat;
-        background-position: center;
-      object-fit:cover;
     }
 
 .odd-feature-text, .even-feature-text {
@@ -167,27 +163,31 @@
     .evenGridArea {
         /* max-width: 540px; */
   }
+
+  .banner {
+    background-image: url("../images/IssueLabHeader.png");
+  height:800px;
+}
 }
   
   /* Medium devices (landscape tablets, 768px and up) */
   @media only screen and (min-width: 768px) {
-    .evenGridArea {
-        /* max-width: 720px; */
+    .banner {
+        background-image: url("../images/IssueLabHeader.png");
     }
   }
 
   /* Large devices (laptops/desktops, 992px and up) */
   @media only screen and (min-width: 992px) {
-    .evenGridArea {
-        /* max-width: 960px; */
+    .banner {
+        background-image: url("../images/IssueLabHeader-Wide.png");
     }
   }
   
   /* Extra large devices (large laptops and desktops, 1200px and up) */
   @media only screen and (min-width: 1200px) {
- 
-    .evenGridArea {
-        /* max-width: 1200px; */
+    .banner {
+        background-image: url("../images/IssueLabHeader-Wide.png");
     }
   }
 
