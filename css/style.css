@@ -16,9 +16,16 @@
     top: 20%!important;
 }
 
+.label {
+    /* background-color: #F0EFF4; */
+    height: 160px;
+    /* position: relative; */
+}
+
+
 .evenGridAreaSection {
     background-color: #f9fafb;
-    padding: 20px;
+    /* padding: 20px; */
 }
 
 .oddGridAreaSection {

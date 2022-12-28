@@ -10,7 +10,7 @@
     <title>IssueLab</title>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">
                 <img src="images/issuelab-icon.png" alt=""  height="40" class="d-inline-block align-text-top">
@@ -22,8 +22,8 @@
             <div class="navbar-nav ms-auto">
               <a class="nav-link" aria-current="page" href="#">Home</a>
               <!-- <a class="nav-link" href="#">Features</a> -->
-              <a class="nav-link" href="#">Register</a>
               <a class="nav-link" href="#features">Features</a>
+              <a class="nav-link" href="#register">Register</a>
               <a class="nav-link" href="#contact">Contact Us</a>
             </div>
           </div>
@@ -45,7 +45,7 @@
             <div class="container parent oddGridArea">
             <div class="child odd-feature-text p-2">
                 <div class="col-12">
-                    <p class="fs-2 text">Be a step ahead of BIM project issues</p>
+                    <p class="fs-2 text">Be a <span class="fw-bold">step ahead</span> of BIM project issues</p>
                 </div>
                 <div class="col-12">
                     IssueLab significantly reduces the amount of time involved in dealing with project issues by improving the way project members work with each other and intelligently learning the way users responds to issues and improving over time.
@@ -95,9 +95,9 @@
 
         <div class="evenGridAreaSection ">
             <div class="container parent evenGridArea">
-                <div class=" child   even-feature-text p-2">
+                <div class=" child   even-feature-text ">
                     <div class="col-12">
-                        <p class="fs-2 text">See and do more, quickly</p>
+                        <p class="fs-2 text">See and do more, <span class="fw-bold">in no time</span></p>
                     </div>
                     <div class="col-12">
                         The expandable panel shows all comments, files and activity history related to each Issue. Add comments, images, and viewpoints, and see who did what on each Issue.
@@ -163,7 +163,7 @@
             <div class="container parent evenGridArea">
                 <div class=" child   even-feature-text p-2">
                 <div class="col-12">
-                    <p class="fs-2 text">View issues your way</p>
+                    <p class="fs-2 text">View issues <span class="fw-bold">your way</span></p>
                 </div>
                 <div class="col-12">
                     Make issues easy to identify by creating a unique look with custom Issue status colours. You can also set the colour of Issues you're assigned to so no issue goes unnoticed.  
@@ -270,7 +270,7 @@
        
         <div class="row text-center container mx-auto">
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-                <p class="fs-2 text">Work collaboratively with team members</p>
+                <p class="fs-2 text"><span class="fw-bold">Work collaboratively</span> with team members</p>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
                 <p>See who is doing what. Assign task to a team member effortlessly. Associate Issues to each task item or create unrelated task items for any task that needs to be monitored. </p>
@@ -281,14 +281,19 @@
         </div>
     </section>
 
-
-    <hr class="my-4 mt-5">
+    <section id="register" class="label bg-light text-center my-3 position-relative" >
+        <div class="position-absolute top-50 start-50 translate-middle">
+            <h2 class="fw-light fst-italic">Try <span class="fw-bold">IssueLab</span> today with your team</h2>
+            <a href="#" class="btn btn-secondary">Register Now</a>
+        </div>
+       
+    </section>
 
     <section class="container" id="contact">
-          <div class="row">
+          <div class="card col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 mx-auto bg-light p-3">
            
-            <div class="m-2 col-xs-12 col-sm-12 col-md-8 border shadow-sm bg-light mx-auto">
-                <div class="py-5 text-center">
+           
+                <div class="py-3 text-center">
                     <h2>Contact Us</h2>
                   </div>
               <form class="needs-validation" novalidate="">
@@ -333,7 +338,10 @@
       
                 </div>
       
-                <button class="w-100 btn btn-secondary btn-lg my-3" type="submit">Submit</button>
+                <div class="text-center ">
+                    <button class="btn btn-secondary btn-lg my-3" type="submit">Submit</button>
+                </div>
+                
               </form>
             </div>
           </div>
