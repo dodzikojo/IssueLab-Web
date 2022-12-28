@@ -42,7 +42,7 @@
 
 .feature-image {
     object-fit: contain;
-    width: 300px;
+    width: 350px;
     text-align: center;
 }
 
@@ -69,7 +69,7 @@
     display:grid;
     grid-template-areas: 
     "text image";
-  grid-template-columns: 80% auto;
+  grid-template-columns: auto auto;
    
 }
 
@@ -86,7 +86,7 @@
     display:grid;
     grid-template-areas: 
     "image text";
-  grid-template-columns: auto 80%;
+  grid-template-columns: auto auto;
    
 }
 
