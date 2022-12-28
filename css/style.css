@@ -13,13 +13,11 @@
 }
 
 .top-20 {
-    top: 20%!important;
+    top: 35%!important;
 }
 
 .label {
-    /* background-color: #F0EFF4; */
     height: 160px;
-    /* position: relative; */
 }
 
 
@@ -54,7 +52,8 @@
 }
 
 .feature-text {
-    background-color: rgba(255, 255, 255, 0.505);
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 10px;
 }
 
 .oddGridArea {
@@ -99,6 +98,15 @@
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
+
+    .banner {
+        background-image: url("../images/IssueLabHeader.png");
+      height:800px;
+      width: 100%;
+      background-repeat:no-repeat;
+        background-position: center;
+      object-fit:cover;
+    }
 
 .odd-feature-text, .even-feature-text {
     text-align: center;
