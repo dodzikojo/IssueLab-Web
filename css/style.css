@@ -17,7 +17,16 @@
 }
 
 .label {
-    height: 160px;
+    height: auto;
+}
+
+.pricing-register-container {
+    max-width: 800px !important;
+}
+
+.footer-link a {
+    text-decoration: none;
+
 }
 
 
