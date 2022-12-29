@@ -6,14 +6,14 @@
 .banner {
     background-image: url("../images/IssueLabHeader-Wide.png");
     margin-bottom: 10px;
-  width: 100%;
-  background-repeat:no-repeat;
+    width: 100%;
+    background-repeat: no-repeat;
     background-position: center;
-  object-fit:cover;
+    object-fit: cover;
 }
 
 .top-20 {
-    top: 35%!important;
+    top: 35% !important;
 }
 
 .label {
@@ -49,13 +49,13 @@
 .parent {
     align-items: center;
     justify-content: center;
-  }
+}
 
- 
 
-.image-container{
-    width:100%;
-    text-align:center;
+
+.image-container {
+    width: 100%;
+    text-align: center;
 }
 
 #collab-image {
@@ -64,7 +64,7 @@
 
 .feature-description {
     font-family: 'Montserrat', sans-serif;
-    font-size:0.95rem;
+    font-size: 0.95rem;
 }
 
 .feature-title {
@@ -90,11 +90,11 @@
 }
 
 .oddGridArea {
-    display:grid;
-    grid-template-areas: 
-    "text image";
-  grid-template-columns: auto auto;
-   
+    display: grid;
+    grid-template-areas:
+        "text image";
+    grid-template-columns: auto auto;
+
 }
 
 .odd-feature-text {
@@ -107,11 +107,11 @@
 
 
 .evenGridArea {
-    display:grid;
-    grid-template-areas: 
-    "image text";
-  grid-template-columns: auto auto;
-   
+    display: grid;
+    grid-template-areas:
+        "image text";
+    grid-template-columns: auto auto;
+
 }
 
 .even-feature-text {
@@ -123,10 +123,10 @@
 }
 
 .additional-feature-img {
-    width:100px !important;
+    width: 100px !important;
     text-align: center;
 }
- 
+
 
 
 /* Extra small devices (phones, 600px and down) */
@@ -134,95 +134,89 @@
 
     .banner {
         background-image: url("../images/IssueLabHeader.png");
-      height:800px;
+        height: 800px;
     }
 
-.odd-feature-text, .even-feature-text {
-    text-align: center;
-}
+    .odd-feature-text,
+    .even-feature-text {
+        text-align: center;
+    }
 
-.oddGridArea {
-    display:grid;
-    grid-template-areas: 
-    "image"
-    "text";
-    grid-template-columns: 1fr;
-  grid-template-rows: auto auto;
-   
-}
+    .oddGridArea {
+        display: grid;
+        grid-template-areas:
+            "image"
+            "text";
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto;
 
-.odd-feature-text {
-    grid-area: text;
-}
+    }
 
-.odd-feature-image {
-    grid-area: image;
-}
+    .odd-feature-text {
+        grid-area: text;
+    }
+
+    .odd-feature-image {
+        grid-area: image;
+    }
 
 
-.evenGridArea {
-    display:grid;
-    grid-template-areas: 
-    "image"
-    "text";
-    grid-template-columns: 1fr;
-    grid-template-rows: auto auto;
-   
-}
-
-.even-feature-text {
-    grid-area: text;
-}
-
-.even-feature-image {
-    grid-area: image;
-}
-
-.additional-feature-img {
-    width:100px !important;
-    text-align: center;
-   
-}
-
-.feature-image {
-    height: 220px;
-    margin-top: 20px;
-}
- 
-  }
-  
-  /* Small devices (portrait tablets and large phones, 600px and up) */
-  @media only screen and (min-width: 600px) {
     .evenGridArea {
-        /* max-width: 540px; */
-  }
+        display: grid;
+        grid-template-areas:
+            "image"
+            "text";
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto;
 
-  .banner {
-    background-image: url("../images/IssueLabHeader.png");
-  height:800px;
+    }
+
+    .even-feature-text {
+        grid-area: text;
+    }
+
+    .even-feature-image {
+        grid-area: image;
+    }
+
+    .additional-feature-img {
+        width: 100px !important;
+        text-align: center;
+
+    }
+
+    .feature-image {
+        height: 220px;
+        margin-top: 20px;
+    }
+
 }
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .banner {
+        background-image: url("../images/IssueLabHeader.png");
+        height: 800px;
+    }
 }
-  
-  /* Medium devices (landscape tablets, 768px and up) */
-  @media only screen and (min-width: 768px) {
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
     .banner {
         background-image: url("../images/IssueLabHeader.png");
     }
-  }
+}
 
-  /* Large devices (laptops/desktops, 992px and up) */
-  @media only screen and (min-width: 992px) {
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
     .banner {
         background-image: url("../images/IssueLabHeader-Wide.png");
     }
-  }
-  
-  /* Extra large devices (large laptops and desktops, 1200px and up) */
-  @media only screen and (min-width: 1200px) {
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
     .banner {
         background-image: url("../images/IssueLabHeader-Wide.png");
     }
-  }
-
-
-
+}
