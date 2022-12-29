@@ -12,6 +12,10 @@
     object-fit: cover;
 }
 
+#split-line {
+    opacity: 10%;
+}
+
 .top-20 {
     top: 35% !important;
 }
