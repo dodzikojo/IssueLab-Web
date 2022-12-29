@@ -10,6 +10,7 @@ IssueLab is a SAAS startup that is revolutionizing the way that architects and c
 * JavaScript is used appropriately and works correctly.
 
 ## Preview
+[Live Preview](https://dodzikojo.github.io/IssueLab-Web/ "Live Preview")
+
 ![preview](/IssueLab-Web-Screenshot.jpeg)
 
-[Live Preview](https://dodzikojo.github.io/IssueLab-Web/ "Live Preview")
