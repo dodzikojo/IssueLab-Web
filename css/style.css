@@ -132,6 +132,15 @@
 }
 
 
+.additional-info-card:hover {
+  transform: scale(1.025);
+}
+
+.additional-info-card {
+    transition: transform .2s;
+}
+
+
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
